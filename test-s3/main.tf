@@ -21,5 +21,4 @@ resource "aws_s3_bucket" "bucket" {
     }
   }
 
-  policy = "${data.template_file.bucketPolicy.rendered}"
 }
